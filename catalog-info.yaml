@@ -1,0 +1,21 @@
+apiVersion: extensions.backstage.io/v1alpha1
+kind: Package
+metadata:
+  name: backstage-community-plugin-third-party
+  namespace: rhdh
+  title: "@backstage-community/plugin-third-party"
+  annotations:
+    backstage.io/source-location: url
+      https://github.com/backstage/community-plugins/tree/main/workspaces/third-party
+  tags: []
+spec:
+  packageName: "@backstage-community/plugin-third-party"
+  dynamicArtifact: oci://quay.io/dzemanov/third-party:latest!community-plugins-backstage-plugin-third-party
+  version: 1.12.1
+  backstage:
+    role: frontend-plugin
+    supportedVersions: 1.36.1
+  author: Third Party
+  support: tech-preview
+  lifecycle: active
+  appConfigExamples: []
