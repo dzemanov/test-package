@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/redhat-developer/rhdh-plugins/refs/heads/main/workspaces/marketplace/json-schema/plugins.json
+apiVersion: extensions.backstage.io/v1alpha1
+kind: Plugin
+metadata:
+  name: todo
+  namespace: third-party
+  title: Todo
+  description: |
+    Todo plugin description.
+  links:
+    - title: Source Code
+      url: https://github.com/backstage/community-plugins/tree/main/workspaces/todo
+  tags:
+    - todo
+spec:
+  author: Third Party
+  support: production
+  lifecycle: active
+  publisher: Third Party
+  categories:
+    - Productivity
+  description: |
+    Lorem ipsum dolor.
+  packages:
+    - backstage-community-plugin-todo-backend
+    - backstage-community-plugin-todo

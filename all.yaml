@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: entities
+  description: A collection of all the catalog entities
+spec:
+  targets:
+    - ./marketplace/backstage-community-plugin-todo-backend.yaml
+    - ./marketplace/backstage-community-plugin-todo.yaml
+    - ./marketplace/todo.yaml
