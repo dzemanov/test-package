@@ -17,7 +17,7 @@ spec:
   dynamicArtifact: oci://quay.io/dzemanov/backstage-community-plugin-playlist:latest!backstage-community-plugin-playlist
   version: 0.9.0
   backstage:
-    role: backend-plugin
+    role: frontend-plugin
     supportedVersions: 1.36.1
   author: Third Party
   support: tech-preview
