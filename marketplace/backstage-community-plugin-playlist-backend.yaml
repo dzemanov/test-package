@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/redhat-developer/rhdh-plugins/refs/heads/main/workspaces/marketplace/json-schema/packages.json
+apiVersion: extensions.backstage.io/v1alpha1
+kind: Package
+metadata:
+  name: backstage-community-plugin-playlist-backend
+  namespace: third-party
+  title: "@backstage-community/plugin-playlist-backend"
+  links:
+    - title: Source Code
+      url: https://github.com/backstage/community-plugins/tree/main/workspaces/playlist/plugins/playlist-backend
+  annotations:
+    backstage.io/source-location: url
+      https://github.com/backstage/community-plugins/tree/main/workspaces/playlist/plugins/playlist-backend
+  tags: []
+spec:
+  packageName: "@backstage-community/plugin-playlist-backend-dynamic"
+  dynamicArtifact: oci://quay.io/dzemanov/backstage-community-plugin-playlist-backend:latest!backstage-community-plugin-playlist-backend
+  version: 0.9.0
+  backstage:
+    role: backend-plugin
+    supportedVersions: 1.36.1
+  author: Third Party
+  support: tech-preview
+  lifecycle: active
+  appConfigExamples: []

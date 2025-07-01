@@ -2,16 +2,16 @@
 apiVersion: extensions.backstage.io/v1alpha1
 kind: Plugin
 metadata:
-  name: todo
+  name: playlist
   namespace: third-party
-  title: Todo
+  title: Playlist
   description: |
-    Todo plugin description.
+    Playlist plugin description.
   links:
     - title: Source Code
-      url: https://github.com/backstage/community-plugins/tree/main/workspaces/todo
+      url: https://github.com/backstage/community-plugins/tree/main/workspaces/playlist
   tags:
-    - todo
+    - playlist
 spec:
   author: Third Party
   support: production
@@ -22,5 +22,5 @@ spec:
   description: |
     Lorem ipsum dolor.
   packages:
-    - backstage-community-plugin-todo-backend
-    - backstage-community-plugin-todo
+    - backstage-community-plugin-playlist-backend
+    - backstage-community-plugin-playlist

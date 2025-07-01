@@ -5,6 +5,6 @@ metadata:
   description: A collection of all the catalog entities
 spec:
   targets:
-    - ./marketplace/backstage-community-plugin-todo-backend.yaml
-    - ./marketplace/backstage-community-plugin-todo.yaml
-    - ./marketplace/todo.yaml
+    - ./marketplace/backstage-community-plugin-playlist-backend.yaml
+    - ./marketplace/backstage-community-plugin-playlist.yaml
+    - ./marketplace/playlist.yaml
